@@ -8,4 +8,12 @@
 //push our updated code from master branch into gh-pages by running the following command: git push origin gh-pages
 //go back to your github repo for this project, navigate to settings, and under 'Github Pages', you should see a link to your live site (this can take awhile to propagate)
 
+//In order to continue working on your master branch and further pushing code to this branch, use the following commands:
+//git checkout master (this will take us back to our master branch)
+//this branch is currently not ignoring our public/styles/style.css and /public/scripts/main.js 
+//so now we have to RUN GULP
+//insert public/styles/style.css and /public/scripts/main.js BACK into our .gitignore
+//quit gulp
+//add, commit, and push these changes to our master branch
+
 
