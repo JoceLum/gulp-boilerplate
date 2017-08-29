@@ -1,0 +1,11 @@
+//make sure gulp is running
+//make your changes
+//changes should include the removal of /public/styles/style.css and /public/scripts/main.js (so that we are no longer ignoring our compiled code)
+//quit gulp (crtl c)
+//add, commit, and push our changes to master branch
+
+//git checkout -b gh-pages (this creates a new branch called gh-pages)
+//push our updated code from master branch into gh-pages by running the following command: git push origin gh-pages
+//go back to your github repo for this project, navigate to settings, and under 'Github Pages', you should see a link to your live site (this can take awhile to propagate)
+
+

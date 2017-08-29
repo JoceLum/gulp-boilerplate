@@ -2,8 +2,8 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
 const babel = require('gulp-babel');
-const browserSync = require('browser-sync').create();
-const reload = browserSync.reload;
+// const browserSync = require('browser-sync').create();
+// const reload = browserSync.reload;
 
 //a task to compile our sass
 gulp.task('styles', () => {
@@ -30,10 +30,10 @@ gulp.task('watch', () => {
 });
 
 //broswer-sync
-gulp.task('browser-sync', () => {
-    browserSync.init({
-        server: '.'
-    })
-});
+// gulp.task('browser-sync', () => {
+//     browserSync.init({
+//         server: '.'
+//     })
+// });
 
 gulp.task('default', ['styles', 'scripts', 'watch']);
